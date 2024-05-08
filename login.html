@@ -3,33 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NAME | Regestration</title>
+    <title>NAME | Log in</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <div class="w-full flex items-center justify-center h-screen">
+      <div class="hidden md:block w-full p-5 h-full">
+        <img
+          class="w-full h-full rounded-lg shadow-lg object-cover object-bottom"
+          src="https://images.unsplash.com/photo-1615033997119-42ce44dfe094?q=80&w=1901&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+      </div>
       <div class="w-full p-5 h-full">
         <div class="flex items-center justify-center w-full h-full">
           <!-- form -->
           <form class="max-w-md w-full mx-auto">
             <div class="text-3xl font-bold mb-10">LOGO/NAME</div>
             <div class="text-xl opacity-75 font-light mb-3 text-center">
-              • Regestration •
+              • Log in •
             </div>
-            <div class="mb-5">
-              <label
-                for="name"
-                class="block mb-2 text-sm font-medium text-gray-900"
-                >Your Name</label
-              >
-              <input
-                type="text"
-                id="name"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                placeholder="Lokman Touil"
-                required
-              />
-            </div>
+
             <div class="mb-5">
               <label
                 for="email"
@@ -58,42 +52,22 @@
                 required
               />
             </div>
-            <div class="mb-5">
-              <label
-                for="confirmpassword"
-                class="block mb-2 text-sm font-medium text-gray-900"
-                >Confirm password</label
-              >
-              <input
-                type="confirmpassword"
-                id="confirmpassword"
-                placeholder="•••••••"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                required
-              />
-            </div>
+
             <div class="flex flex-col md:flex-row items-center justify-between">
               <button
                 type="submit"
                 class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium text-sm w-full sm:w-auto px-5 py-2.5 text-center"
               >
-                Create an account
+                Log in
               </button>
               <a
-                href="login.html"
+                href="regestration.html"
                 class="text-xs opacity-80 mt-3 md:mt-0 hover:underline underline-offset-2 transition-all"
-                >Already have an account?</a
+                >Create an account?</a
               >
             </div>
           </form>
         </div>
-      </div>
-      <div class="hidden md:block w-full p-5 h-full">
-        <img
-          class="w-full h-full rounded-lg shadow-lg object-cover object-bottom"
-          src="https://images.unsplash.com/photo-1542871307-52aab5e79317?q=80&w=1921&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt=""
-        />
       </div>
     </div>
   </body>
